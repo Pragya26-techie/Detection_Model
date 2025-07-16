@@ -1,0 +1,4 @@
+[2025-07-12 20:37:51,855] 23:root-INFO-Data Ingestion Mode START
+[2025-07-12 20:37:53,819] 29:root-INFO-Exported collectin as dataframe
+[2025-07-12 20:37:53,835] 33:root-INFO-Raw Data is created
+[2025-07-12 20:37:53,851] 38:root-INFO-train and test Data is created

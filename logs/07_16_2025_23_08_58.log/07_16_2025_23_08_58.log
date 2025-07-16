@@ -1,0 +1,12 @@
+[2025-07-16 23:09:00,056] 160:numexpr.utils-INFO-NumExpr defaulting to 4 threads.
+[2025-07-16 23:09:05,155] 29:root-INFO-Data Ingestion Mode START
+[2025-07-16 23:09:06,615] 35:root-INFO-Exported collectin as dataframe
+[2025-07-16 23:09:06,638] 39:root-INFO-Raw Data is created
+[2025-07-16 23:09:06,651] 44:root-INFO-train and test Data is created
+[2025-07-16 23:09:06,743] 50:root-INFO-Read train and test data completed
+[2025-07-16 23:09:06,743] 52:root-INFO-Obtaining preprocessing object
+[2025-07-16 23:09:06,743] 35:root-INFO-Numerical column standard scaling done
+[2025-07-16 23:09:06,743] 53:root-INFO-Splitting training and testing input and target feature
+[2025-07-16 23:09:06,743] 104:root-INFO-Extracting model config file path
+[2025-07-16 23:09:35,923] 122:root-INFO-Best found model on both training and testing dataset
+[2025-07-16 23:09:35,923] 131:root-INFO-Saving model at path: artifacts\model.pkl

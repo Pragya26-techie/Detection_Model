@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: Credit-Card-Fault-Detection
+Version: 0.0.1
+Author: Pragya
+Author-email: pragyarajput2662@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: pymongo
+Requires-Dist: dill
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

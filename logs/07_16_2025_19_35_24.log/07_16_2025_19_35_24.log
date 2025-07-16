@@ -1,0 +1,8 @@
+[2025-07-16 19:35:24,970] 160:numexpr.utils-INFO-NumExpr defaulting to 4 threads.
+[2025-07-16 19:35:28,693] 29:root-INFO-Data Ingestion Mode START
+[2025-07-16 19:35:29,944] 35:root-INFO-Exported collectin as dataframe
+[2025-07-16 19:35:29,955] 39:root-INFO-Raw Data is created
+[2025-07-16 19:35:29,965] 44:root-INFO-train and test Data is created
+[2025-07-16 19:35:30,072] 50:root-INFO-Read train and test data completed
+[2025-07-16 19:35:30,072] 52:root-INFO-Obtaining preprocessing object
+[2025-07-16 19:35:30,072] 35:root-INFO-Numerical column standard scaling done

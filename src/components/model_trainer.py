@@ -65,12 +65,45 @@ class ModelTrainer:
                 "Gradient Boosting": GradientBoostingClassifier(),
                 "K-Neighbors Classifier": KNeighborsClassifier(),
                 "XGBClassifier": XGBClassifier(),
-                "AdaBoost Classifier": AdaBoostClassifier(),
+                "AdaBoost Classifier": AdaBoostClassifier(algorithm="SAMME")
+            }
+
+            param = {"Random Forest":{
+                'criterion':['gini'],
+                'min_samples_leaf':[1,5,10,15],
+                'n_estimators':[10,50,100]
+            },
+            "Decision Tree":{
+                'criterion':['gini','entropy','log_loss'],
+                'splitter':["best","random"],
+                'min_samples_split':[2,4,6,8,10],
+                'min_samples_leaf':[1,10,20,40]
+            },
+            "Gradient Boosting":{
+                'loss':["log_loss","exponential"],
+                'learning_rate':[0.1,0.5,0.6],
+                'criterion':['friedman_mse','squared_error']
+            },
+            "K-Neighbors Classifier":{
+               'n_neighbors':[5,10,15],
+                # 'weights':['uniform','distance'],
+                # 'algorithm':['auto','ball_tree','kd_tree','brute'],
+               'leaf_size':[30,40] 
+            },
+            "XGBClassifier":{
+                'n_estimators':[2,4,6,8,10],
+                'max_depth':[2,4,6],
+                'learning_rate':[0.5,1]       
+            },
+            "AdaBoost Classifier":{
+                'learning_rate':[.1,.01,0.5,.001],
+                'n_estimators':[8,16,32,64,128,256]
+            }
             }
 
             logging.info(f"Extracting model config file path")
 
-            model_report:dict = evaluate_models(x_train=x_train, y_train=y_train,x_test=x_test,y_test=y_test,models=models)
+            model_report:dict = evaluate_models(x_train=x_train, y_train=y_train,x_test=x_test,y_test=y_test,models=models,param=param)
 
             ## To get best model score from dict
             best_model_score = max(sorted(model_report.values()))

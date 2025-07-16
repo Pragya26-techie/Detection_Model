@@ -1,0 +1,11 @@
+[2025-07-16 20:40:07,796] 160:numexpr.utils-INFO-NumExpr defaulting to 4 threads.
+[2025-07-16 20:40:12,999] 29:root-INFO-Data Ingestion Mode START
+[2025-07-16 20:40:16,024] 35:root-INFO-Exported collectin as dataframe
+[2025-07-16 20:40:16,038] 39:root-INFO-Raw Data is created
+[2025-07-16 20:40:16,038] 44:root-INFO-train and test Data is created
+[2025-07-16 20:40:16,160] 50:root-INFO-Read train and test data completed
+[2025-07-16 20:40:16,160] 52:root-INFO-Obtaining preprocessing object
+[2025-07-16 20:40:16,160] 35:root-INFO-Numerical column standard scaling done
+[2025-07-16 20:40:16,176] 53:root-INFO-Splitting training and testing input and target feature
+[2025-07-16 20:40:16,176] 71:root-INFO-Extracting model config file path
+[2025-07-16 20:40:17,825] 110:root-INFO-Exception occured at model traning
