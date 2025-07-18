@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Default Detector</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      margin-top: 30px;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2 class="text-center mb-4">Credit Card Default Detection</h2>
+
+    {% if result %}
+      <div class="alert alert-info text-center">
+        <strong>Result:</strong> {{ result }}
+      </div>
+    {% endif %}
+
+    <form method="POST">
+      <div class="form-row">
+
+        {% set fields = [
+          'LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE',
+          'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6',
+          'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6',
+          'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'
+        ] %}
+
+        {% for field in fields %}
+        <div class="form-group col-md-6">
+          <label for="{{ field }}">{{ field }}</label>
+          <input type="text" class="form-control" id="{{ field }}" name="{{ field }}" required>
+        </div>
+        {% endfor %}
+
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary px-5">Predict</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
