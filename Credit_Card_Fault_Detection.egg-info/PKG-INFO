@@ -11,6 +11,8 @@ Requires-Dist: scikit-learn
 Requires-Dist: xgboost
 Requires-Dist: pymongo
 Requires-Dist: dill
+Requires-Dist: flask
+Requires-Dist: gunicorn
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

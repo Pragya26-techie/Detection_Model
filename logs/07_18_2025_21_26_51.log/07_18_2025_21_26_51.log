@@ -1,0 +1,11 @@
+[2025-07-18 21:26:53,565] 97:werkzeug-WARNING- * Debugger is active!
+[2025-07-18 21:26:53,599] 97:werkzeug-INFO- * Debugger PIN: 450-458-827
+[2025-07-18 21:27:09,817] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:27:09] "GET / HTTP/1.1" 200 -
+[2025-07-18 21:27:09,899] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:27:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-18 21:27:35,621] 97:werkzeug-INFO- * Detected change in 'C:\\Users\\PRAGYA\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-07-18 21:27:35,625] 97:werkzeug-INFO- * Detected change in 'C:\\Users\\PRAGYA\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+[2025-07-18 21:27:35,628] 97:werkzeug-INFO- * Detected change in 'C:\\Users\\PRAGYA\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+[2025-07-18 21:27:35,643] 97:werkzeug-INFO- * Detected change in 'C:\\Users\\PRAGYA\\anaconda3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+[2025-07-18 21:27:35,656] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:27:35] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[2025-07-18 21:27:35,930] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:27:35] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-07-18 21:27:35,934] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:27:35] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -

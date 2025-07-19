@@ -1,0 +1,10 @@
+[2025-07-18 21:30:45,522] 97:werkzeug-WARNING- * Debugger is active!
+[2025-07-18 21:30:45,539] 97:werkzeug-INFO- * Debugger PIN: 450-458-827
+[2025-07-18 21:31:24,923] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:31:24] "GET / HTTP/1.1" 200 -
+[2025-07-18 21:31:25,000] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:31:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-18 21:31:26,770] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:31:26] "GET /predictdata HTTP/1.1" 200 -
+[2025-07-18 21:34:48,162] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:34:48] "POST /predictdata HTTP/1.1" 200 -
+[2025-07-18 21:36:46,093] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:36:46] "POST /predictdata HTTP/1.1" 200 -
+[2025-07-18 21:41:34,886] 97:werkzeug-INFO- * Detected change in 'd:\\credit-card-fault-detection\\app.py', reloading
+[2025-07-18 21:41:34,903] 97:werkzeug-INFO- * Detected change in 'D:\\Credit-Card-Fault-Detection\\app.py', reloading
+[2025-07-18 21:41:34,903] 97:werkzeug-INFO- * Detected change in 'd:\\credit-card-fault-detection\\app.py', reloading

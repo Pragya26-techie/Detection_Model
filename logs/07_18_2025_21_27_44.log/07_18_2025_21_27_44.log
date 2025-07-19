@@ -1,0 +1,4 @@
+[2025-07-18 21:27:46,665] 97:werkzeug-WARNING- * Debugger is active!
+[2025-07-18 21:27:46,703] 97:werkzeug-INFO- * Debugger PIN: 450-458-827
+[2025-07-18 21:27:46,807] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:27:46] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-07-18 21:27:46,855] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 21:27:46] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

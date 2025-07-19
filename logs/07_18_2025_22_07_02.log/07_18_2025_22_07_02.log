@@ -1,0 +1,5 @@
+[2025-07-18 22:07:05,380] 97:werkzeug-WARNING- * Debugger is active!
+[2025-07-18 22:07:05,409] 97:werkzeug-INFO- * Debugger PIN: 450-458-827
+[2025-07-18 22:07:08,577] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 22:07:08] "GET / HTTP/1.1" 200 -
+[2025-07-18 22:07:08,682] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 22:07:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-18 22:07:10,215] 97:werkzeug-INFO-127.0.0.1 - - [18/Jul/2025 22:07:10] "GET /predictdata HTTP/1.1" 200 -
